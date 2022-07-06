@@ -3,21 +3,18 @@
     padding: 0;
 }
 
-.heading-1 {
+/* .btn {
     color: white;
-}
+    position: absolute;
+} */
 
-.btn {
-    color: black;
-}
-
-.btn .btn-lyp {
+/* .btn .btn-lyp {
     border: 1px solid black;
     padding: 10px 10px;
     width: 120px;
-}
+} */
 
-.area {
+/* .area {
     margin-top: 15px;
     position: relative;
     height: 20px;
@@ -34,9 +31,9 @@
     height: 15px;
     left: 10px;
     top: 6px;
-}
+} */
 
-.hospitals {
+/* .hospitals {
     margin-top: 15px;
     position: relative;
     height: 20px;
@@ -72,9 +69,9 @@
     height: 15px;
     left: 10px;
     top: 6px;
-}
+} */
 
-.header-2 {
+/* .header-2 {
     display: flex;
     justify-content: space-evenly;
 }
@@ -93,14 +90,19 @@
     width: 70px;
 }
 
+.content .img-2 {
+    width: 30px;
+}
 .content p {
     font-size: 10px;
     padding-top: 10px;
     text-align: center;
-}
+} */
 
-.group-15{
+/* .group-15{
     display: flex;
+    position: relative;
+    top: 0px;
     justify-content: center;
 }
 
@@ -115,7 +117,7 @@
     flex-direction: column;
 }
 
-.content-2 img p{
+.content-2 img {
     width: 70px;
 }
 
@@ -124,9 +126,49 @@
 }
 
 .content-2 p {
-    font-size: 8px;
+    font-size: 10px;
     padding-top: 10px;
     text-align: center;
+} */
+
+/* .mask {
+    position: relative;
+    width: 200px;
+    border: 1px solid black;
+    position: relative;
+    box-sizing: border-box;
 }
+
+.mask img {
+    width: 198px;
+}
+
+.top-medical {
+    font-size: 22px;
+    text-align: center;
+}
+
+.top-medical p{
+    font-size: 15px;
+}
+
+.lorem {
+    position: relative;
+    padding-top: 7px;
+}
+
+.lorem p{
+    font-size: 10px;
+    text-align: center;
+}
+
+.common {
+    position: relative;
+    padding-top: 7px;
+    display: flex;
+    justify-content: space-around;
+} */
+
+
 
 /*# sourceMappingURL=/main.af46ece4.css.map */

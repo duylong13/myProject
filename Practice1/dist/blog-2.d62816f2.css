@@ -1,0 +1,39 @@
+.mask {
+    position: relative;
+    width: 200px;
+    border: 1px solid black;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.mask img {
+    width: 198px;
+}
+
+.top-medical {
+    font-size: 22px;
+    text-align: center;
+}
+
+.top-medical p{
+    font-size: 15px;
+}
+
+.lorem {
+    position: relative;
+    padding-top: 7px;
+}
+
+.lorem p{
+    font-size: 10px;
+    text-align: center;
+}
+
+.common {
+    position: relative;
+    padding-top: 7px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*# sourceMappingURL=/blog-2.d62816f2.css.map */
