@@ -133,11 +133,11 @@ form.example button {
     background: #0b7dda;
   }
   
-  form.example::after {
+  /* form.example::after {
     content: "";
     clear: both;
     display: table;
-}
+} */
 
 .header-2 {
     display: flex;
