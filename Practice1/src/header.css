@@ -116,17 +116,17 @@
 }
 
 form.example button {
-    float: left;
-    width: 20%;
-    height: 20px;
+    width: 100%;
+    height: 15px;
     margin-top: 15px;
-    padding: 26px;
+    padding: 20px;
     background: #2196F3;
     color: white;
-    font-size: 17px;
     border: 1px solid grey;
-    border-left: none;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   form.example button:hover {
