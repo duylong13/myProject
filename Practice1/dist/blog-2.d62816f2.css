@@ -1,8 +1,24 @@
+.heading-1 {
+    position: absolute;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: -600px;
+}
+
+.group-14 {
+    display: flex;
+    justify-content: center;
+    margin-top: -450px;
+}
+
 .mask {
     position: relative;
+    margin: 50px 40px 0 10px;
+    left: 0;
+    top: 0;
     width: 200px;
-    border: 1px solid black;
-    position: relative;
+    border: 0px;
     box-sizing: border-box;
 }
 
@@ -10,6 +26,9 @@
     width: 198px;
 }
 
+.div-common {
+    background-color: white;
+}
 .top-medical {
     font-size: 22px;
     text-align: center;
