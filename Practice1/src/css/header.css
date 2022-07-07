@@ -16,6 +16,7 @@
     top: 10px;
     align-items: center;
     margin-left: 1300px;
+    /* float: right; */
 }
 
 .nav .btn .btn-login {
@@ -138,8 +139,12 @@ form.example button:hover {
     background: #0b7dda;
 }
 
+.example .search-btn {
+    font-size: 36px;
+    color: white;
+}
 
-.header-2 {
+.header-container {
     display: flex;
     justify-content: center;
     width: 100vw;
@@ -161,15 +166,15 @@ form.example button:hover {
     background-color: white;
 }
 
-.content img p {
+.content .header-container-img .content-p {
     width: 70px;
 }
 
-.content .img-2 {
+.content .header-container-img {
     width: 30px;
 }
 
-.content p {
+.content .content-p {
     font-size: 10px;
     padding-top: 10px;
     text-align: center;

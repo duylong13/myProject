@@ -1,0 +1,62 @@
+.page-read-health-img {
+    width: 100%;
+    height: 100%;
+}
+
+.page-read-health-heading {
+    position: absolute;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: -600px;
+}
+
+.page-read-health {
+    display: flex;
+    justify-content: center;
+    margin-top: -450px;
+}
+
+.mask {
+    position: relative;
+    margin: 50px 40px 0 10px;
+    left: 0;
+    top: 0;
+    width: 200px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+.mask .mask-img {
+    width: 198px;
+}
+
+.page-read-health-blog {
+    background-color: white;
+}
+
+.top-medical {
+    font-size: 22px;
+    text-align: center;
+}
+
+.top-medical .top-medical-input {
+    font-size: 15px;
+}
+
+.lorem {
+    position: relative;
+    padding-top: 7px;
+}
+
+.lorem .lorem-input {
+    font-size: 10px;
+    text-align: center;
+}
+
+.page-read-health-footer {
+    position: relative;
+    padding-top: 7px;
+    display: flex;
+    justify-content: space-around;
+}
