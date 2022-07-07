@@ -1,11 +1,11 @@
 .heading {
     position: relative;
     top: 20px;
-    text-align: center; 
+    text-align: center;
     color: black;
 }
 
-.group-15{
+.group-15 {
     display: flex;
     position: relative;
     top: 0px;
@@ -27,7 +27,7 @@
     width: 70px;
 }
 
-.content-2 .font{
+.content-2 .font {
     font-size: 15px;
 }
 
