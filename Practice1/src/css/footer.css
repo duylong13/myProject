@@ -1,18 +1,27 @@
-.footer {
+.page-footer {
     position: relative;
     background-color: #003366;
     width: 100%;
     height: 100%;
-    margin-top: 882px;
     color: white;
     display: flex;
 }
 
-.footer p {
+.page-footer .page-footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.page-footer .page-footer-col {
+    flex: 4;
+    margin-right: 40px;
+}
+
+.page-footer .page-footer-col .footer-items {
+    margin: 0px 89px 0px 60px;
+}
+
+.page-footer .page-footer-list {
+    list-style-type: none;
     color: #0099FF;
 }
-
-/* .footer-common-component {
-    color: white;
-    display: flex;
-} */

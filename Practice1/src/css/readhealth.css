@@ -1,20 +1,29 @@
-.page-read-health-img {
+.page-read-health {
+    position: relative;
     width: 100%;
-    height: 100%;
+    padding-bottom: 144px;
+}
+
+.page-read-health-img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;   
 }
 
 .page-read-health-heading {
-    position: absolute;
+    padding-top: 50px; 
     color: white;
     width: 100%;
     text-align: center;
-    margin-top: -600px;
+    font-size: 40px;
 }
 
-.page-read-health {
+.page-read-health-container {
+    margin-top: 48px;
     display: flex;
     justify-content: center;
-    margin-top: -450px;
+    /* margin-bottom: 200px; */
 }
 
 .mask {

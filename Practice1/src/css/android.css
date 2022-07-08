@@ -1,32 +1,33 @@
 .android {
-    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
     background-color: #87CEFA;
-    top: 1872px;
     width: 100%;
     height: 100%;
 }
 
-.android .android-img {
-    padding: 3px 0px 0px 250px;
-    height: 100%;
-}
-
-.common-img {
-    display: flex;
-    position: relative;
-    padding-top: 20px;
-}
-
 .android-component {
-    position: absolute;
-    margin-top: -360px;
-    padding-left: 800px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .android-component-input {
     color: white;
 }
+
+.common-img {
+    display: flex;
+    /* position: relative; */
+    padding-top: 20px;
+}
+
+.img-googleplay {
+    margin-right: 20px;
+}
+
+.img-appstore {}
 
 .android-form {
     width: 500px;
