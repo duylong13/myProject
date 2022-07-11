@@ -7,6 +7,10 @@
     height: 100%;
 }
 
+.android-img {
+    padding: 50px 0px 0px 197px;
+}
+
 .android-component {
     display: flex;
     flex-direction: column;
@@ -14,7 +18,8 @@
 }
 
 .android-component-input {
-    color: white;
+    color: #FFFFFF;
+    font-size: 40px;
 }
 
 .common-img {
@@ -24,10 +29,9 @@
 }
 
 .img-googleplay {
-    margin-right: 20px;
+    margin-right: 40px;
+    height: 55px;
 }
-
-.img-appstore {}
 
 .android-form {
     width: 500px;
@@ -35,7 +39,7 @@
 }
 
 .android-input {
-    border: 1px solid white;
+    border: 1px solid #FFFFFF;
     width: 70%;
     height: 50px;
     font-weight: 400;
@@ -45,14 +49,15 @@
 }
 
 .android-form ::placeholder {
-    color: white;
+    color: #FFFFFF;
     opacity: 1;
 }
 
 .android-button-signup {
     position: absolute;
-    background-color: white;
+    background-color: #FFFFFF;
     width: 113px;
     height: 50px;
-    border: 1px solid white;
+    border: 1px solid #FFFFFF;
+    color: #00FFFF;
 }

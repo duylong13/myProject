@@ -1,17 +1,17 @@
 .heading {
     position: relative;
-    top: 20px;
+    top: 50px;
+    margin-bottom: 54px;
     text-align: center;
-    color: black;
+    color: #000000;
     font-size: 40px;
 }
 
 .blog-container {
     display: flex;
     position: relative;
-    top: 0px;
-    left: 0px;
     justify-content: center;
+    margin-bottom: 74px;
 }
 
 .blog-container-content {
@@ -26,10 +26,12 @@
 
 .blog-container-content .blog-container-img {
     width: 70px;
+    margin-bottom: 38px;
 }
 
 .blog-container-content .font {
     font-size: 15px;
+    margin-bottom: 36px;
 }
 
 .blog-container-content .font-little {
