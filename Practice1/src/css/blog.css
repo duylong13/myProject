@@ -11,11 +11,11 @@
     display: flex;
     position: relative;
     justify-content: center;
-    margin-bottom: 74px;
+    padding: 0px 87px 74px 113px;
 }
 
 .blog-container-content {
-    margin-top: 50px;
+    margin: 50px 100px 0px 52px;
     width: 250px;
     height: 200px;
     display: flex;
@@ -30,12 +30,21 @@
 }
 
 .blog-container-content .font {
-    font-size: 15px;
+    font-size: 30px;
     margin-bottom: 36px;
 }
 
 .blog-container-content .font-little {
-    font-size: 10px;
+    font-size: 20px;
     padding-top: 10px;
     text-align: center;
+    line-height: 23px;
+    width: 379px;
+    margin-right: 52px;
+    letter-spacing: 0.87px;
+    /* height: 71px; */
+}
+
+.font-compare {
+    height: 100px;
 }

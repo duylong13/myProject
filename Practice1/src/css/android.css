@@ -20,11 +20,14 @@
 .android-component-input {
     color: #FFFFFF;
     font-size: 40px;
+    line-height: 46px;
+    width: 692px;
+    height: 94px;
+    font-weight: 400px;
 }
 
 .common-img {
     display: flex;
-    /* position: relative; */
     padding-top: 20px;
 }
 

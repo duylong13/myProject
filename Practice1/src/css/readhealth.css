@@ -8,11 +8,11 @@
     position: absolute;
     z-index: -1;
     width: 100%;
-    height: 100%;   
+    height: 100%;
 }
 
 .page-read-health-heading {
-    padding-top: 50px; 
+    padding-top: 50px;
     color: #FFFFFF;
     width: 100%;
     text-align: center;
@@ -23,21 +23,19 @@
     margin-top: 48px;
     display: flex;
     justify-content: center;
-    /* margin-bottom: 200px; */
 }
 
 .mask {
-    position: relative;
-    margin: 50px 40px 0 10px;
-    left: 0;
-    top: 0;
-    width: 200px;
+    margin: 50px 40px 0px 61px;
+    width: 302px;
     border: 0px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    display: flex;
+    flex-direction: column;
 }
 
 .mask .mask-img {
-    width: 198px;
+    width: 302px;
 }
 
 .page-read-health-blog {
@@ -47,10 +45,12 @@
 .top-medical {
     font-size: 22px;
     text-align: center;
+    margin-top: 0px;
 }
 
 .top-medical .top-medical-input {
-    font-size: 15px;
+    font-size: 22px;
+    padding-top: 11px;
 }
 
 .lorem {
@@ -59,13 +59,30 @@
 }
 
 .lorem .lorem-input {
-    font-size: 10px;
+    font-size: 13px;
     text-align: center;
+    line-height: 15px;
+    letter-spacing: 0.0200893em;
+    text-align: justify;
+    color: #474747;
+    padding: 0px 12px 0 13px;
 }
 
 .page-read-health-footer {
     position: relative;
-    padding-top: 7px;
+    padding: 7px 0px 12px 0px;
     display: flex;
     justify-content: space-around;
+}
+
+.page-read-health-footer .input-left {
+    margin-right: 114px;
+}
+
+.page-read-health-footer .input-right {
+    color: #13BA8E;
+}
+
+span.c {
+    display: block;
 }
