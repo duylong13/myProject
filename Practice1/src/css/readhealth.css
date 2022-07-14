@@ -36,6 +36,7 @@
 
 .mask .mask-img {
     width: 302px;
+    vertical-align: middle; 
 }
 
 .page-read-health-blog {
