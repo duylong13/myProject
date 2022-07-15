@@ -8,3 +8,12 @@
     margin: 0;
     padding: 0;
 }
+
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --blue-dark: #2196F3;
+    --gray: #474747;
+    --blue-light: #87CEFA;
+    --green-dark: #13BA8E;
+}

@@ -3,7 +3,7 @@
     top: 50px;
     margin-bottom: 54px;
     text-align: center;
-    color: #000000;
+    color: var(--black);
     font-size: 40px;
 }
 
