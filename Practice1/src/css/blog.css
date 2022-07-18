@@ -1,50 +1,49 @@
 .heading {
-    position: relative;
-    top: 50px;
-    margin-bottom: 54px;
-    text-align: center;
-    color: var(--black);
-    font-size: 40px;
+  position: relative;
+  top: 50px;
+  margin-bottom: 54px;
+  text-align: center;
+  color: var(--black);
+  font-size: 40px;
 }
 
 .blog-container {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    padding: 0px 87px 74px 113px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding: 0px 87px 74px 113px;
 }
 
 .blog-container-content {
-    margin: 50px 100px 0px 52px;
-    width: 250px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  margin: 50px 100px 0px 52px;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .blog-container-content .blog-container-img {
-    width: 70px;
-    margin-bottom: 38px;
+  width: 70px;
+  margin-bottom: 38px;
 }
 
 .blog-container-content .font {
-    font-size: 30px;
-    margin-bottom: 36px;
+  font-size: 30px;
+  margin-bottom: 36px;
 }
 
 .blog-container-content .font-little {
-    font-size: 20px;
-    padding-top: 10px;
-    text-align: center;
-    line-height: 23px;
-    width: 379px;
-    margin-right: 52px;
-    letter-spacing: 0.87px;
-    /* height: 71px; */
+  font-size: 20px;
+  padding-top: 10px;
+  text-align: center;
+  line-height: 23px;
+  width: 379px;
+  margin-right: 52px;
+  letter-spacing: 0.87px;
 }
 
 .font-compare {
-    height: 100px;
+  height: 100px;
 }

@@ -1,73 +1,74 @@
 .android {
-    display: flex;
-    justify-content: space-around;
-    background-color: var(--blue-light);
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--blue-light);
 }
 
 .android-img-component {
-    width: 50%;
-    text-align: center;
+  width: 50%;
+  text-align: center;
 }
 
 .android-img {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .android-component {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
 }
 
 .android-component-input {
-    color: var(--white);
-    font-size: 40px;
-    line-height: 46px;
-    width: 449px;
-    height: 94px;
-    font-weight: 400px;
+  color: var(--white);
+  font-size: 40px;
+  line-height: 46px;
+  width: 449px;
+  height: 94px;
+  font-weight: 400px;
 }
 
 .common-img {
-    display: flex;
-    padding-top: 20px;
+  display: flex;
+  padding-top: 20px;
 }
 
 .img-googleplay {
-    margin-right: 40px;
-    height: 55px;
-    width: 187px;
+  margin-right: 40px;
+  height: 55px;
+  width: 187px;
 }
 
-.img-appstore{
-    width: 187px;
-    height: 55px;
+.img-appstore {
+  width: 187px;
+  height: 55px;
 }
+
 .android-form {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .android-input {
-    border: 1px solid var(--white);
-    width: 302px;
-    height: 50px;
-    font-weight: 400;
-    background-color: var(--blue-light);
-    font-size: 16px;
-    padding-left: 25px;
+  border: 1px solid var(--white);
+  width: 302px;
+  height: 50px;
+  font-weight: 400;
+  background-color: var(--blue-light);
+  font-size: 16px;
+  padding-left: 25px;
 }
 
 .android-form ::placeholder {
-    color: var(--white);
-    opacity: 1;
+  color: var(--white);
+  opacity: 1;
 }
 
 .android-button-signup {
-    position: absolute;
-    background-color: var(--white);
-    width: 120px;
-    height: 52px;
-    border: 1px solid var(--white);
-    color: var(--blue-light);
+  position: absolute;
+  background-color: var(--white);
+  width: 120px;
+  height: 52px;
+  border: 1px solid var(--white);
+  color: var(--blue-light);
 }
