@@ -26,7 +26,7 @@
 *Step two*: How to run the project
 * Turn on Visual Studio Code. Open the folder you just cloned to your computer.
 * Select Terminal on the toolbar or press Ctrl + Shift + `
-* Run command "cd projectFolder" Ex: cd Practice1
-* Run command "npm install" to install parcel
+* Run command "cd myProject/Practice1"
+* Run command "npm install" to install package of practice
 * Run command "npm run dev"
 * Hold ctrl and click on the successfully created localhost link to view the website

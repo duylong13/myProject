@@ -65,10 +65,10 @@
   justify-content: space-around;
 }
 
-.page-read-health-footer .input-dark {
+.page-read-health-footer .doctor-name {
   margin-right: 114px;
 }
 
-.page-read-health-footer .input-light {
+.page-read-health-footer .read-more {
   color: var(--green-dark);
 }

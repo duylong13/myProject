@@ -1,19 +1,23 @@
-@import url("./header.css");
-@import url("./blog.css");
-@import url("./readhealth.css");
-@import url("./footer.css");
-@import url("./android.css");
-
 * {
   margin: 0;
   padding: 0;
 }
 
 :root {
-  --white: #FFFFFF;
-  --black: #000000;
+  --white: #FFF;
+  --black: #000;
   --blue-dark: #2196F3;
   --gray: #474747;
   --blue-light: #87CEFA;
   --green-dark: #13BA8E;
 }
+
+@import url("./header.css");
+@import url("./blog.css");
+@import url("./readhealth.css");
+@import url("./android.css");
+@import url("./footer.css");
+		
+
+
+
