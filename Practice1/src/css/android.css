@@ -1,0 +1,74 @@
+.android {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--blue-light);
+}
+
+.android-img-component {
+  width: 50%;
+  text-align: center;
+}
+
+.android-img {
+  padding-top: 50px;
+}
+
+.android-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.android-component-input {
+  color: var(--white);
+  font-size: 40px;
+  line-height: 46px;
+  width: 449px;
+  height: 94px;
+  font-weight: 400px;
+}
+
+.common-img {
+  display: flex;
+  padding-top: 20px;
+}
+
+.googleplay-icon {
+  margin-right: 40px;
+  height: 55px;
+  width: 187px;
+}
+
+.appstore-icon {
+  width: 187px;
+  height: 55px;
+}
+
+.android-form {
+  margin-top: 40px;
+}
+
+.android-input {
+  border: 1px solid var(--white);
+  width: 302px;
+  height: 50px;
+  font-weight: 400;
+  background-color: var(--blue-light);
+  font-size: 16px;
+  padding-left: 25px;
+}
+
+.android-form ::placeholder {
+  color: var(--white);
+  opacity: 1;
+}
+
+.android-button-signup {
+  position: absolute;
+  background-color: var(--white);
+  width: 120px;
+  height: 52px;
+  border: 1px solid var(--white);
+  color: var(--blue-light);
+}
