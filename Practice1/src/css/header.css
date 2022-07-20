@@ -1,169 +1,169 @@
 .page-header {
-	position: relative;
+  position: relative;
 }
 
 .nav {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	width: 100%;
-	height: 63px;
-	padding: 25px 0px 0px 51px;
-	width: calc(100% - 92px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 63px;
+  padding: 25px 0px 0px 51px;
+  width: calc(100% - 92px);
 }
 
 .nav-img {
-	position: absolute;
-	z-index: -1;
-	width: 100%;
-	height: 100%;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
 }
 
 .nav .btn-tag {
-	display: flex;
-	color: var(--white);
-	align-items: center;
+  display: flex;
+  color: var(--white);
+  align-items: center;
 }
 
 .nav .btn-tag .btn-login {
-	padding-right: 20px;
+  padding-right: 20px;
 }
 
 .nav .btn-tag .btn-lyp {
-	border: 1px solid var(--white);
-	padding: 10px 10px;
-	width: 120px;
+  border: 1px solid var(--white);
+  padding: 10px 10px;
+  width: 120px;
 }
 
 .nav .logo {
-	color: var(--black);
-	display: flex;
-	font-size: 10px;
-	align-items: center;
+  color: var(--black);
+  display: flex;
+  font-size: 10px;
+  align-items: center;
 }
 
 .nav .nav-input {
-	font-size: 20px;
-	color: var(--white);
-	padding-left: 10px;
+  font-size: 20px;
+  color: var(--white);
+  padding-left: 10px;
 }
 
 .search {
-	display: flex;
-	height: 100px;
-	width: calc(100% - 115px);
-	justify-content: center;
-	margin: 0px auto;
-	margin-top: 306px;
-	margin-bottom: 100px;
+  display: flex;
+  height: 100px;
+  width: calc(100% - 115px);
+  justify-content: center;
+  margin: 0px auto;
+  margin-top: 306px;
+  margin-bottom: 100px;
 }
 
 .area {
-	margin-top: 15px;
-	position: relative;
-	height: 20px;
+  margin-top: 15px;
+  position: relative;
+  height: 20px;
 }
 
 .area .area-input {
-	padding: 5px 0px 5px 35px;
-	height: 40px;
+  padding: 5px 0px 5px 35px;
+  height: 40px;
 }
 
 .area .icon {
-	position: absolute;
-	height: 20px;
-	left: 10px;
-	top: 13px;
+  position: absolute;
+  height: 20px;
+  left: 10px;
+  top: 13px;
 }
 
 .hospitals {
-	margin-top: 15px;
-	position: relative;
-	height: 20px;
+  margin-top: 15px;
+  position: relative;
+  height: 20px;
 }
 
 .hospitals .hospitals-input {
-	padding: 5px 0px 5px 35px;
-	outline: none;
-	width: 400px;
-	height: 40px;
+  padding: 5px 0px 5px 35px;
+  outline: none;
+  width: 400px;
+  height: 40px;
 }
 
 .hospitals .icon {
-	position: absolute;
-	height: 15px;
-	left: 10px;
-	top: 17px;
+  position: absolute;
+  height: 15px;
+  left: 10px;
+  top: 17px;
 }
 
 .insurance {
-	margin-top: 15px;
-	position: relative;
-	height: 20px;
+  margin-top: 15px;
+  position: relative;
+  height: 20px;
 }
 
 .insurance .insurance-input {
-	padding: 5px 0px 5px 35px;
-	outline: none;
-	width: 340px;
-	height: 40px;
+  padding: 5px 0px 5px 35px;
+  outline: none;
+  width: 340px;
+  height: 40px;
 }
 
 .insurance .icon {
-	position: absolute;
-	height: 15px;
-	left: 10px;
-	top: 17px;
+  position: absolute;
+  height: 15px;
+  left: 10px;
+  top: 17px;
 }
 
 .example .example-button {
-	width: 100%;
-	height: 55px;
-	margin-top: 15px;
-	padding: 20px;
-	background: var(--blue-dark);
-	color: var(--white);
-	border: 1px solid var(--gray);
-	cursor: pointer;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 36px;
+  width: 100%;
+  height: 55px;
+  margin-top: 15px;
+  padding: 20px;
+  background: var(--blue-dark);
+  color: var(--white);
+  border: 1px solid var(--gray);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
 }
 
 .example .example-button:hover {
-	background: var(--blue-dark);
+  background: var(--blue-dark);
 }
 
 .header-container {
-	display: flex;
-	justify-content: center;
-	width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .content {
-	margin: 50px 50px 144px 45px;
-	border: 1px solid var(--black);
-	width: 180px;
-	height: 180px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	background-color: var(--white);
+  margin: 50px 50px 144px 45px;
+  border: 1px solid var(--black);
+  width: 180px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--white);
 }
 
 
 .content .header-container-img {
-	width: 50px;
+  width: 50px;
 }
 
 .content .content-p {
-	font-size: 18px;
-	text-align: center;
-	color: var(--black);
-	font-size: 18px;
-	line-height: 21px;
-	padding: 10px 24px 0px 24px;
-	width: 132px;
+  font-size: 18px;
+  text-align: center;
+  color: var(--black);
+  font-size: 18px;
+  line-height: 21px;
+  padding: 10px 24px 0px 24px;
+  width: 132px;
 }
