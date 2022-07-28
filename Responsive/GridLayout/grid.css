@@ -1,0 +1,104 @@
+/* Grid CSS */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  } 
+  
+.grid-container > div {
+    background-color: white;
+    text-align: center; 
+    padding: 20px;
+    font-size: 30px;
+  }
+
+.flowers {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+  max-width: 800px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 50px;
+  height: 100px;
+}
+
+.container .item {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+/* @media */
+@media all and (max-width: 980px){
+  .people {
+    color: red;
+  }
+} 
+
+@media screen and (aspect-ratio: 1){
+  .people {
+    color: black;
+  }  
+}
+
+/* Grid Lines */
+.container-grid-lines {
+  display: grid;
+  max-width: 800px;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: center; 
+  padding: 20px;
+  font-size: 30px;
+}
+
+.item-one {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+/* Grid Area CSS */
+.grid-area-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-area-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.item-8 {
+  grid-area: 1 / 2 / 5 / 6;
+}
+
+/* Hover CSS */
+a:hover {
+  background-color: black;
+}
+
+/* Pointer CSS */
+.facebook {
+  cursor: alias;
+}
+
+.instagram {
+  cursor: grabbing;
+}
